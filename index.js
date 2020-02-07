@@ -18,9 +18,7 @@ const ERROR = {
 };
 
 function findBracketById(id) {
-  const bracket = brackets.find(b => b.id === parseInt(id));
-  if (!bracket) return;
-  return bracket;
+  return brackets.find(b => b.id === parseInt(id));
 }
 
 // GET landing message -----------------------------------------------------------------------------
